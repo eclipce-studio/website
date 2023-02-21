@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: fixed;
+    width: 1366px;
+    height: 65px;
+    background: #fff;
+    color: #000;
+    display: flex;
+    z-index: 10000;
+    
+
+}
+header .logo{
+    margin-left: 133px;
+    margin-top: 19px;
+}
+header .sidebar{
+    margin-left: 200px;
+    margin-top: 22px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+header .sidebar a{
+    margin-right: 56px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+header .sidebar a:hover{
+    color: #5ADBE3;
+}
+header .searchbox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    justify-content: center;
+    background: none;
+    border-radius: 50px;
+    align-items: center;
+    color: #fff;
+}
+.searchbox:hover input{
+    width: 150px;
+    color: #5ADBE3;
+}
+.searchbox input{
+    width: 0;
+    margin-top: 13px;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.searchbox a{
+    color: #6F6868;
+    font-size: 18px;
+}
+.searchbox a:hover{
+    color: #5ADBE3;
+}
+.searchbox a i{
+    padding-right: 15px;
+    padding-top: 5px;
+}
+/* Home */
+
+.bg{
+    margin-top: 70px;
+    width: 1317px;
+    margin-left: 27px;
+    height: 703px;
+}
+.home h1{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 587px;
+    margin-top: 100px;
+    letter-spacing: 0.62em;
+}
+.line1{
+    width: 50px;
+    height: 2px;
+    background: #000;
+    margin-top: 72.5px;
+    margin-left: 658px;
+}
+.block1{
+    display: flex;
+    margin-top: 107.5px;
+    margin-left: 133px;
+}
+.innerblock h3{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 79px;
+    margin-top: 6px;
+}
+.innerblock p{
+    width: 325px;
+    height: 120px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 92px;
+    line-height: 30px;
+}
+.innerblock p strong{
+    color: #5ADBE3;
+    font-size: 36px;
+    font-weight: 600;
+} 
+.innerblock .line2{
+    width: 50px;
+    height: 1px;
+    background: #000;
+    margin-top: 58px;
+    margin-left: 120px;
+    margin-bottom: 63px;
+}
+.innerblock .btn1{
+    margin-left: 77px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 19px 17px 18px 17px;
+    transition: 0.5s;
+}
+.innerblock .btn1:hover{
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.home .img1{
+    margin-left: 382px;
+}
+
+.block2{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 133px;
+}
+.img2{
+    margin-right: 363px;
+}
+.innerblock2{
+    margin-top: 102px;
+}
+.innerblock2 h3{
+    margin-left: 53px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+}
+.innerblock2 p{
+    width: 344px;
+    height: 125px;
+    margin-top: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 74px;
+    line-height: 30px;
+
+}
+.innerblock2 p strong{
+    color: #5ADBE3;
+    font-weight: 600;
+}
+.innerblock2 .btn2{
+    margin-left: 90px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 19px 21px 18px 21px;
+    transition: 0.5s;
+}
+.innerblock2 .btn2:hover{
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.block3{
+    margin-top: 100px;
+    margin-left: 133px;
+    display: flex;
+}
+.innerblock3{
+    margin-top: 127px;
+}
+.innerblock3 h3{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 94px;
+}
+.innerblock3 p{
+    margin-top: 33px;
+    width: 306px;
+    height: 130px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 43px;
+}
+.innerblock3 .btn3{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 69px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 19px;
+    transition: 0.5s;
+}
+.innerblock3 .btn3:hover{
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.img3{
+    margin-left: 401px;
+}
+
+/* Projects */
+
+.projects{
+    margin-left: 133px;
+    margin-top: 165px;
+}
+.projects h2{
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 470px;
+    letter-spacing: 0.4em;
+}
+.inbl1{
+    height: 35px;
+    margin-top: 61.5px;
+    margin-bottom: 89.5px;
+    display: flex;
+}
+.inbl1 .line3{
+    width: 50px;
+    height: 1px;
+    background: #000;
+    margin-left: 545px;
+    margin-top: 19px;
+}
+.inbl1 .right{
+    margin-left: 490px;
+    transition: 0.5s;
+}
+
+    
+.inbl2{
+    height: 400px;
+    width: 1100px;
+    position: relative;
+    overflow: auto;
+    white-space: nowrap;
+    position: relative;
+    
+}
+.inbl2 a{
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.inbl2 .box1{
+    margin-right: 59px; 
+    transition: 0.5s;
+}
+
+
+
+.box1 h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+.box1 p{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #6F6868;
+}
+.box1{
+    /* position: relative; */
+    transition: 0.5s;
+}
+.box1:hover{
+    padding-top: 20px;
+    color: #5ADBE3;
+}
+.inbl2 .box2{
+    margin-right: 59px;
+}
+.box2 h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+.box2 p{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #6F6868;
+}
+.box2{
+    /* position: absolute; */
+    transition: 0.5s;
+}
+.box2:hover{
+    padding-top: 20px;
+    color: #5ADBE3;
+}
+.inbl2 .box3{
+    margin-right: 59px;
+}
+.box3{
+    /* position: absolute; */
+    transition: 0.5s;
+}
+.box3:hover{
+    padding-top: 20px;
+    color: #5ADBE3;
+}
+.box3 h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+.box3 p{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #6F6868;
+}
+
+.box4{
+    position: absolute;
+    transition: 0.5s;
+}
+.box4:hover{
+    padding-top: 20px;
+    color: #5ADBE3;
+}
+/* .box4 img{
+    transition: 0.5s;
+}
+.box4 img:hover{
+    width: 350px;
+    height: 250px;
+} */
+.box4 h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+.box4 p{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #6F6868;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    margin-left: 133px;
+    margin-top: 191px;
+    margin-bottom: 87px;
+}
+footer .email{
+    margin-left: 246.67px;
+    display: flex;
+}
+.email .input1{
+    border: none;
+    background: none;
+    border-bottom: 2px solid #000;
+    width: 500px;
+    cursor: pointer; 
+    font-size: 16px;
+    font-weight: 400;
+}
+.email .btn4{
+    width: 70px;
+    height: 50px;
+    background: #5ADBE3;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.links{
+    margin-left: 135px;
+}
+.links a{
+    margin-right: 30px;
+}
+.links a:hover{
+    margin-top: 10px;
+}
